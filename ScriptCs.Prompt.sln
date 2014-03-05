@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCs.Prompt", "src\ScriptCs.Prompt\ScriptCs.Prompt.csproj", "{97F549B0-B8AE-4908-850E-F36568124B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCs.Prompt.Tests", "src\ScriptCs.Prompt.Tests\ScriptCs.Prompt.Tests.csproj", "{B190B107-ED3D-44B7-A60E-1E270C622C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{1BB96801-D939-4FA6-A302-F23DEEC5C362}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\test.csx = scripts\test.csx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F549B0-B8AE-4908-850E-F36568124B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F549B0-B8AE-4908-850E-F36568124B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F549B0-B8AE-4908-850E-F36568124B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F549B0-B8AE-4908-850E-F36568124B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B190B107-ED3D-44B7-A60E-1E270C622C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B190B107-ED3D-44B7-A60E-1E270C622C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B190B107-ED3D-44B7-A60E-1E270C622C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B190B107-ED3D-44B7-A60E-1E270C622C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
